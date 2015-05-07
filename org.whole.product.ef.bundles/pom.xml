@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.wholeplatform</groupId>
+	<artifactId>org.whole.product.ef.bundles</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.reficio</groupId>
+				<artifactId>p2-maven-plugin</artifactId>
+				<version>1.2.0-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<id>default-cli</id>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<id>ch.qos.logback:logback-classic:1.1.3</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>ch.qos.logback.classic</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>ch.qos.logback:logback-core:1.1.3</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>ch.qos.logback.core</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>com.fasterxml.jackson.core:jackson-core:2.3.1</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>com.fasterxml.jackson</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>joda-time:joda-time:1.6.2</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>net.sourceforge.jodatime</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>nu.validator:htmlparser:1.4.1</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>nu.validator.htmlparser</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>org.beanshell:bsh:2.0b5</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>org.beanshell.bsh</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>org.gradle:gradle-tooling-api:2.4</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>org.gradle</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>com.h2database:h2:1.2.147</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>org.h2</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>org.mozilla:rhino:1.7.6</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>org.mozilla.rhino</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+								<artifact>
+									<id>org.slf4j:slf4j-api:1.7.10</id>
+									<source>true</source>
+									<override>true</override>
+									<instructions>
+										<Bundle-SymbolicName>org.slf4j.api</Bundle-SymbolicName>
+									</instructions>
+								</artifact>
+							</artifacts>
+						</configuration>
+
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>reficio</id>
+			<url>http://repo.reficio.org/maven/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>spring-central</id>
+			<name>libs-release-remote</name>
+			<url>http://repo.spring.io/libs-release-remote</url>
+		</repository>
+	</repositories>
+</project>
+
+

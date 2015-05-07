@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<site>
+   <feature id="com.fasterxml.jackson.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="net.sourceforge.jodatime.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="nu.validator.htmlparser.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.beanshell.bsh.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.gradle.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.h2.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.mozilla.rhino.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.draw2d">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.draw2d.source">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.gef.source">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.gef.lightweight">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.e4.tools.e3x.bridge.feature">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <feature id="org.eclipse.e4.tools.e3x.bridge.feature.source">
+      <category name="whole-enabling-features"/>
+   </feature>
+   <category-def name="whole-enabling-features" label="Whole Platform Enabling Features 1.0.0.qualifier">
+      <description>
+         Provide functionalities required by one or more of the Whole features.
+      </description>
+   </category-def>
+</site>
