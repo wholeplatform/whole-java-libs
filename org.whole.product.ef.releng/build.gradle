@@ -1,0 +1,72 @@
+def reposDir = "${project.projectDir.absolutePath}/../.."
+def lwRelengDir = "${reposDir}/whole/org.whole.products.releng"
+
+apply from: "${lwRelengDir}/common.gradle"
+def bundlesDir = "${relengDir}/../org.whole.product.ef.bundles"
+
+task set_build_version { description 'set the build version' } << {
+	ant.replace(dir: repoDir, token: versionNumOld+".qualifier", value: fullVersion, summary: true) {
+		include(name: "*/feature.xml")
+		include(name: "*/category.xml")
+	}
+	
+	ant.replace(dir: repoDir, token: versionNumOld+"-SNAPSHOT", value: fullVersion, summary: true) {
+		include(name: "*/pom.xml")
+	}
+}
+
+task set_meta_version { description 'set the meta version' } << {
+	ant.replace(dir: repoDir, token: fullVersion, value: versionNum+".qualifier", summary: true) {
+		include(name: "*/feature.xml")
+		include(name: "*/category.xml")
+	}
+	
+	ant.replace(dir: repoDir, token: fullVersion, value: versionNum+"-SNAPSHOT", summary: true) {
+		include(name: "*/pom.xml")
+	}
+}
+
+def clean_ef = { ->
+    launchMaven("${relengDir}", "pom.xml", ["clean"])
+    launchMaven("${bundlesDir}", "pom.xml", ["clean"])
+}
+
+task package_ef(dependsOn: set_build_version) << {
+    launchMaven("${bundlesDir}", "pom.xml", ["package"])
+	launchMaven("${relengDir}", "pom.xml", ["package"])
+}
+package_ef.onlyIf { !failure && (!existsBuildArtifactsDir || hasUncommittedChanges) }
+package_ef.finalizedBy set_meta_version
+
+task build_ef(dependsOn:[init_build, package_ef]) << {
+	ant.move(toDir: buildArtifactsDir, failonerror:false) {
+		fileset(dir: "${repoDir}/org.whole.product.ef.repository/target", includes: "whole-*.zip")
+	}
+	ant.delete(dir: "${relengDir}/whole-ef-updates")
+	ant.unzip(src: "${buildArtifactsDir}/whole-enabling-features-updatesite-${fullVersion}.zip", dest: "${relengDir}/whole-ef-updates")
+
+	clean_ef();
+}
+build_ef.onlyIf { !failure }
+
+task clean_updates(description:"Clean updates repository") << {
+	ant.delete(dir: "${relengDir}/whole-ef-updates")
+}
+
+task clean(description:"Clean") << {
+	clean_ef();
+    ant.delete(dir: "${relengDir}/builds")
+	ant.delete(dir: "${relengDir}/whole-ef-updates")
+}
+
+task build(dependsOn:build_ef, description:"Generates all distribution archives")
+
+task release(description:"Release the Whole Language Workbench") << {
+	def frsDir = "/home/frs/project/whole"	
+
+	exec {
+		executable "rsync"
+		args "-ave ssh ${relengDir}/whole-ef-updates riccardo_solmi@frs.sourceforge.net:${frsDir}/whole-ef-updates"
+	}
+}
+release.onlyIf { new File("${relengDir}/whole-ef-updates").exists() }
