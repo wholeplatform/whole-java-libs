@@ -60,13 +60,3 @@ task clean(description:"Clean") << {
 }
 
 task build(dependsOn:build_ef, description:"Generates all distribution archives")
-
-task release(description:"Release the Whole Language Workbench") << {
-	def frsDir = "/home/frs/project/whole"	
-
-	exec {
-		executable "rsync"
-		args "-ave ssh ${relengDir}/whole-ef-updates riccardo_solmi@frs.sourceforge.net:${frsDir}/whole-ef-updates"
-	}
-}
-release.onlyIf { new File("${relengDir}/whole-ef-updates").exists() }
