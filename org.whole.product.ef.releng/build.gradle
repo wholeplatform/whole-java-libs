@@ -4,7 +4,7 @@ def lwRelengDir = "${reposDir}/whole/org.whole.products.releng"
 apply from: "${lwRelengDir}/common.gradle"
 def bundlesDir = "${relengDir}/../org.whole.product.ef.bundles"
 
-task set_build_version { description 'set the build version' } << {
+task set_build_version(description: "Set the build version") << {
 	ant.replace(dir: repoDir, token: versionNumOld+".qualifier", value: fullVersion, summary: true) {
 		include(name: "*/feature.xml")
 		include(name: "*/category.xml")
@@ -15,7 +15,7 @@ task set_build_version { description 'set the build version' } << {
 	}
 }
 
-task set_meta_version { description 'set the meta version' } << {
+task set_meta_version(description: "Set the meta version") << {
 	ant.replace(dir: repoDir, token: fullVersion, value: versionNum+".qualifier", summary: true) {
 		include(name: "*/feature.xml")
 		include(name: "*/category.xml")
@@ -26,37 +26,35 @@ task set_meta_version { description 'set the meta version' } << {
 	}
 }
 
-def clean_ef = { ->
-    launchMaven("${relengDir}", "pom.xml", ["clean"])
-    launchMaven("${bundlesDir}", "pom.xml", ["clean"])
+task clean_ef << {
+    launchMaven(relengDir, "pom.xml", "clean")
+    launchMaven(bundlesDir, "pom.xml", "clean")
 }
 
 task package_ef(dependsOn: set_build_version) << {
-    launchMaven("${bundlesDir}", "pom.xml", ["package"])
-	launchMaven("${relengDir}", "pom.xml", ["package"])
+    launchMaven(bundlesDir, "pom.xml", "package")
+	launchMaven(relengDir, "pom.xml", "package")
 }
 package_ef.onlyIf { !failure && (!existsBuildArtifactsDir || hasUncommittedChanges) }
 package_ef.finalizedBy set_meta_version
 
-task build_ef(dependsOn:[init_build, package_ef]) << {
+task build_ef(dependsOn: [init_build, package_ef]) << {
 	ant.move(toDir: buildArtifactsDir, failonerror:false) {
 		fileset(dir: "${repoDir}/org.whole.product.ef.repository/target", includes: "whole-*.zip")
 	}
 	ant.delete(dir: "${relengDir}/whole-ef-updates")
 	ant.unzip(src: "${buildArtifactsDir}/whole-enabling-features-updatesite-${fullVersion}.zip", dest: "${relengDir}/whole-ef-updates")
-
-	clean_ef();
 }
 build_ef.onlyIf { !failure }
+build_ef.finalizedBy clean_ef
 
-task clean_updates(description:"Clean updates repository") << {
+task clean_updates(description: "Clean updates repository") << {
 	ant.delete(dir: "${relengDir}/whole-ef-updates")
 }
 
-task clean(description:"Clean") << {
-	clean_ef();
+task clean(dependsOn: clean_ef, description: "Clean") << {
     ant.delete(dir: "${relengDir}/builds")
 	ant.delete(dir: "${relengDir}/whole-ef-updates")
 }
 
-task build(dependsOn:build_ef, description:"Generates all distribution archives")
+task build(dependsOn: build_ef, description: "Generates all distribution archives")
