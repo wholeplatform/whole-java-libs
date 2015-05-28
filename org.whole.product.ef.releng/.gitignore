@@ -1,4 +1,7 @@
 /builds
+/e4releng-build
+/e4tools-build
+/gef-build
 /whole-ef-updates
 /workspace
 
