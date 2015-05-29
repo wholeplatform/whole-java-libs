@@ -38,7 +38,7 @@ task package_e4tools << {
 	gitApply("${relengDir}/e4releng-build", "${relengDir}/e4releng.patch")
 
 	gitClone("git://git.eclipse.org/gitroot/e4/org.eclipse.e4.tools.git", "${relengDir}/e4tools-build")
-	gitCheckout("${relengDir}/e4tools-build", "71052e7")
+	gitCheckout("${relengDir}/e4tools-build", "71052e7", "LUNA")
 
 	def result = exec {
 		ignoreExitValue = true
@@ -49,7 +49,9 @@ task package_e4tools << {
 	if (result.getExitValue() != 0)
 		failure = true
 
-    launchMaven("${relengDir}/e4releng-build", "pom.xml", "package")
+	gitCommit("${relengDir}/e4tools-build", "whole", "whole@wholeplatform.com")
+
+    launchMaven("${relengDir}/e4releng-build/cbi/eclipse-parent", "pom.xml", "package")
     launchMaven("${relengDir}/e4tools-build", "pom.xml", "package")
 }
 package_e4tools.onlyIf { !new File("${relengDir}/e4tools-build").exists() }
