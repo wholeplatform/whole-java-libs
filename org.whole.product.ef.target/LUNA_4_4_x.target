@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 <target name="LUNA_4_4_x" sequenceNumber="26">
-<locations>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.sdk.ide" version="0.0.0"/>
-<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
-<repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="ch.qos.logback.classic" version="1.1.3"/>
-<unit id="ch.qos.logback.classic.source" version="1.1.3"/>
-<unit id="ch.qos.logback.core" version="1.1.3"/>
-<unit id="ch.qos.logback.core.source" version="1.1.3"/>
-<unit id="com.fasterxml.jackson" version="2.3.1"/>
-<unit id="com.fasterxml.jackson.source" version="2.3.1"/>
-<unit id="net.sourceforge.jodatime" version="1.6.2"/>
-<unit id="net.sourceforge.jodatime.source" version="1.6.2"/>
-<unit id="nu.validator.htmlparser" version="1.4.1"/>
-<unit id="nu.validator.htmlparser.source" version="1.4.1"/>
-<unit id="org.beanshell.bsh" version="2.0.0.0b5"/>
-<unit id="org.beanshell.bsh.source" version="2.0.0.0b5"/>
-<unit id="org.gradle" version="2.4.0"/>
-<unit id="org.gradle.source" version="2.4.0"/>
-<unit id="org.h2" version="1.2.147"/>
-<unit id="org.h2.source" version="1.2.147"/>
-<unit id="org.mozilla.rhino" version="1.7.6"/>
-<unit id="org.mozilla.rhino.source" version="1.7.6"/>
-<unit id="org.slf4j.api" version="1.7.10"/>
-<unit id="org.slf4j.api.source" version="1.7.10"/>
-<repository location="file:../org.whole.product.ef.bundles/target/repository/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.draw2d.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.gef.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.gef.lightweight.feature.group" version="0.0.0"/>
-<repository location="file:gef-build/org.eclipse.gef.repository/target/repository/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.e4.tools.e3x.bridge.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.e4.tools.e3x.bridge.feature.source.feature.group" version="0.0.0"/>
-<repository location="http://whole.sourceforge.net/e4tools-updates"/>
-</location>
-</locations>
+    <locations>
+        <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+            <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
+            <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+            <repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
+        </location>
+        <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+            <repository location="file:../org.whole.product.ef.bundles/target/repository/"/>
+            <unit id="ch.qos.logback.classic" version="1.1.3"/>
+            <unit id="ch.qos.logback.classic.source" version="1.1.3"/>
+            <unit id="ch.qos.logback.core" version="1.1.3"/>
+            <unit id="ch.qos.logback.core.source" version="1.1.3"/>
+            <unit id="com.fasterxml.jackson" version="2.3.1"/>
+            <unit id="com.fasterxml.jackson.source" version="2.3.1"/>
+            <unit id="net.sourceforge.jodatime" version="1.6.2"/>
+            <unit id="net.sourceforge.jodatime.source" version="1.6.2"/>
+            <unit id="nu.validator.htmlparser" version="1.4.1"/>
+            <unit id="nu.validator.htmlparser.source" version="1.4.1"/>
+            <unit id="org.beanshell.bsh" version="2.0.0.0b5"/>
+            <unit id="org.beanshell.bsh.source" version="2.0.0.0b5"/>
+            <unit id="org.gradle" version="2.4.0"/>
+            <unit id="org.gradle.source" version="2.4.0"/>
+            <unit id="org.h2" version="1.2.147"/>
+            <unit id="org.h2.source" version="1.2.147"/>
+            <unit id="org.mozilla.rhino" version="1.7.6"/>
+            <unit id="org.mozilla.rhino.source" version="1.7.6"/>
+            <unit id="org.slf4j.api" version="1.7.10"/>
+            <unit id="org.slf4j.api.source" version="1.7.10"/>
+        </location>
+        <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+            <repository location="file:gef-build/org.eclipse.gef.repository/target/repository/"/>
+            <unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.draw2d.source.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.gef.source.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.gef.lightweight.feature.group" version="0.0.0"/>
+        </location>
+        <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+            <repository location="http://whole.sourceforge.net/e4tools-updates"/>
+            <unit id="org.eclipse.e4.tools.e3x.bridge.feature.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.e4.tools.e3x.bridge.feature.source.feature.group" version="0.0.0"/>
+        </location>
+    </locations>
 </target>
