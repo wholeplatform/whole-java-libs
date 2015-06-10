@@ -23,6 +23,12 @@
     <feature id="org.eclipse.gef.lightweight">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="ch.qos.logback.classic.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="ch.qos.logback.core.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="com.fasterxml.jackson.feature">
         <category name="whole-enabling-features"/>
     </feature>
@@ -42,6 +48,9 @@
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.mozilla.rhino.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.slf4j.api.feature">
         <category name="whole-enabling-features"/>
     </feature>
 </site>

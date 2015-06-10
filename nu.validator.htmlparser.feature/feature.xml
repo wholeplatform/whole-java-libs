@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature
-      id="nu.validator.htmlparser.feature"
-      label="%featureName"
-      version="1.4.1"
-      provider-name="%providerName">
-
-   <description url="%descriptionURL">
+<feature id="nu.validator.htmlparser.feature" label="%featureName" version="1.4.1" provider-name="%providerName">
+    <description url="%descriptionURL">
       %description
    </description>
-
-   <copyright url="%copyrightURL">
+    <copyright url="%copyrightURL">
       %copyright
    </copyright>
-
-   <license url="%licenseURL">
+    <license url="%licenseURL">
       %license
    </license>
-
-   <url>
-      <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
-      <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
-   </url>
-
-   <plugin
-         id="nu.validator.htmlparser"
-         download-size="0"
-         install-size="0"
-         version="1.4.1"/>
-
-   <plugin
-         id="nu.validator.htmlparser.source"
-         download-size="0"
-         install-size="0"
-         version="1.4.1"/>
-
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="nu.validator.htmlparser" download-size="0" install-size="0" version="1.4.1"/>
+    <plugin id="nu.validator.htmlparser.source" download-size="0" install-size="0" version="1.4.1"/>
 </feature>
