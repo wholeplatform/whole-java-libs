@@ -28,40 +28,16 @@ task set_meta_version(description: "Set the meta version") << {
 
 task package_gef << {
 	gitClone("git://github.com/enricopersiani/gef.git", "${relengDir}/gef-build")
-    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "LUNA_4_4.target")
+    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "MARS_4_5.target")
 }
 package_gef.onlyIf { !new File("${relengDir}/gef-build").exists() }
-
-task package_e4tools << {
-	gitClone("git://git.eclipse.org/gitroot/e4/org.eclipse.e4.releng.git", "${relengDir}/e4releng-build")
-	gitCheckout("${relengDir}/e4releng-build", "4deb0d7")
-	gitApply("${relengDir}/e4releng-build", "${relengDir}/e4releng.patch")
-
-	gitClone("git://git.eclipse.org/gitroot/e4/org.eclipse.e4.tools.git", "${relengDir}/e4tools-build")
-	gitCheckout("${relengDir}/e4tools-build", "71052e7", "LUNA")
-
-	def result = exec {
-		ignoreExitValue = true
-		workingDir = "${relengDir}/e4tools-build"
-		executable = "mvn"
-		args = ['-DnewVersion=0.16.0-SNAPSHOT', 'org.eclipse.tycho:tycho-versions-plugin:set-version']
-	}
-	if (result.getExitValue() != 0)
-		failure = true
-
-	gitCommit("${relengDir}/e4tools-build", "whole", "whole@wholeplatform.com")
-
-    launchMaven("${relengDir}/e4releng-build/cbi/eclipse-parent", "pom.xml", "package")
-    launchMaven("${relengDir}/e4tools-build", "pom.xml", "package")
-}
-package_e4tools.onlyIf { !new File("${relengDir}/e4tools-build").exists() }
 
 task clean_ef << {
     launchMaven(relengDir, "pom.xml", "clean")
     launchMaven(bundlesDir, "pom.xml", "clean")
 }
 
-task package_ef(dependsOn: [set_build_version, package_gef, package_e4tools]) << {
+task package_ef(dependsOn: [set_build_version, package_gef]) << {
     launchMaven(bundlesDir, "pom.xml", "package")
 	launchMaven(relengDir, "pom.xml", "package")
 }
@@ -85,7 +61,6 @@ task clean_updates(description: "Clean updates repository") << {
 task clean(dependsOn: clean_ef, description: "Clean") << {
     ant.delete(dir: "${relengDir}/gef-build")
 	ant.delete(dir: "${relengDir}/e4releng-build")
-    ant.delete(dir: "${relengDir}/e4tools-build")
     ant.delete(dir: "${relengDir}/builds")
 	ant.delete(dir: "${relengDir}/whole-ef-updates")
 }

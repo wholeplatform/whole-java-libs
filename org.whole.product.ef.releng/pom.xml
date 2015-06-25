@@ -107,7 +107,7 @@
                             <groupId>com.wholeplatform</groupId>
                             <artifactId>org.whole.product.ef.target</artifactId>
                             <version>1.0.0-SNAPSHOT</version>
-                            <classifier>LUNA_4_4_x</classifier>
+                            <classifier>MARS_4_5_x</classifier>
                         </artifact>
                     </target>
                     <environments>
