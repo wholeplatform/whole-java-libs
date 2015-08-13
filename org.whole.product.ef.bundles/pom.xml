@@ -20,43 +20,19 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <id>ch.qos.logback:logback-classic:1.1.3</id>
+                                    <id>org.apache.httpcomponents:httpclient:4.5</id>
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>
-                                        <Bundle-SymbolicName>ch.qos.logback.classic</Bundle-SymbolicName>
+                                        <Bundle-SymbolicName>org.apache.httpclient</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>
-                                    <id>ch.qos.logback:logback-core:1.1.3</id>
+                                    <id>org.apache.httpcomponents:httpcore:4.4.1</id>
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>
-                                        <Bundle-SymbolicName>ch.qos.logback.core</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>com.fasterxml.jackson.core:jackson-core:2.3.1</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>com.fasterxml.jackson</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>joda-time:joda-time:1.6.2</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>net.sourceforge.jodatime</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>nu.validator:htmlparser:1.4.1</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>nu.validator.htmlparser</Bundle-SymbolicName>
+                                        <Bundle-SymbolicName>org.apache.httpcore</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -84,6 +60,62 @@
                                     </instructions>
                                 </artifact>
                                 <artifact>
+                                    <id>com.fasterxml.jackson.core:jackson-core:2.3.1</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>com.fasterxml.jackson</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>javax.servlet:javax.servlet-api:3.1.0</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>javax.servlet.api</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>javax.ws.rs:javax.ws.rs-api:2.0.1</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>javax.ws.rs.api</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>org.glassfish.jersey.containers:jersey-container-servlet:2.19</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>jersey.container.servlet</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>joda-time:joda-time:1.6.2</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>net.sourceforge.jodatime</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>ch.qos.logback:logback-classic:1.1.3</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>ch.qos.logback.classic</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>ch.qos.logback:logback-core:1.1.3</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>ch.qos.logback.core</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
                                     <id>org.mozilla:rhino:1.7.6</id>
                                     <source>true</source>
                                     <override>true</override>
@@ -97,6 +129,46 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>org.slf4j.api</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>nu.validator:htmlparser:1.4.1</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>nu.validator.htmlparser</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>javax.websocket:javax.websocket-api:1.1</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>javax.websocket.api</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>org.eclipse.jetty:jetty-servlet:9.3.2.v20150730</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>org.eclipse.jetty.servlet</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>org.eclipse.jetty.websocket:javax-websocket-server-impl:9.3.2.v20150730</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>org.eclipse.jetty.websocket.server.impl</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>org.eclipse.jetty.websocket:javax-websocket-client-impl:9.3.2.v20150730</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>org.eclipse.jetty.websocket.client.impl</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                             </artifacts>

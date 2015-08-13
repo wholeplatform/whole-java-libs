@@ -20,19 +20,10 @@
     <feature id="org.eclipse.gef.lightweight">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="ch.qos.logback.classic.feature">
+    <feature id="org.apache.httpclient.feature">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="ch.qos.logback.core.feature">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="com.fasterxml.jackson.feature">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="net.sourceforge.jodatime.feature">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="nu.validator.htmlparser.feature">
+    <feature id="org.apache.httpcore.feature">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.beanshell.bsh.feature">
@@ -44,10 +35,46 @@
     <feature id="org.h2.feature">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="com.fasterxml.jackson.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="javax.servlet.api.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="javax.ws.rs.api.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="jersey.container.servlet.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="net.sourceforge.jodatime.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="ch.qos.logback.classic.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="ch.qos.logback.core.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.mozilla.rhino.feature">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.slf4j.api.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="nu.validator.htmlparser.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="javax.websocket.api.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.servlet.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.websocket.server.impl.feature">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.websocket.client.impl.feature">
         <category name="whole-enabling-features"/>
     </feature>
 </site>

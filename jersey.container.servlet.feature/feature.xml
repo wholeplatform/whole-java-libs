@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="jersey.container.servlet.feature" label="%featureName" version="2.19.0" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="jersey.container.servlet" download-size="0" install-size="0" version="2.19.0"/>
+    <plugin id="jersey.container.servlet.source" download-size="0" install-size="0" version="2.19.0"/>
+</feature>

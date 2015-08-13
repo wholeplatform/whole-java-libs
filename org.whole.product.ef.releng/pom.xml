@@ -18,16 +18,25 @@
     <modules>
         <module>../org.whole.product.ef.target/pom.xml</module>
         <module>../org.whole.product.ef.repository/pom.xml</module>
-        <module>../ch.qos.logback.classic.feature/pom.xml</module>
-        <module>../ch.qos.logback.core.feature/pom.xml</module>
-        <module>../com.fasterxml.jackson.feature/pom.xml</module>
-        <module>../net.sourceforge.jodatime.feature/pom.xml</module>
-        <module>../nu.validator.htmlparser.feature/pom.xml</module>
+        <module>../org.apache.httpclient.feature/pom.xml</module>
+        <module>../org.apache.httpcore.feature/pom.xml</module>
         <module>../org.beanshell.bsh.feature/pom.xml</module>
         <module>../org.gradle.feature/pom.xml</module>
         <module>../org.h2.feature/pom.xml</module>
+        <module>../com.fasterxml.jackson.feature/pom.xml</module>
+        <module>../javax.servlet.api.feature/pom.xml</module>
+        <module>../javax.ws.rs.api.feature/pom.xml</module>
+        <module>../jersey.container.servlet.feature/pom.xml</module>
+        <module>../net.sourceforge.jodatime.feature/pom.xml</module>
+        <module>../ch.qos.logback.classic.feature/pom.xml</module>
+        <module>../ch.qos.logback.core.feature/pom.xml</module>
         <module>../org.mozilla.rhino.feature/pom.xml</module>
         <module>../org.slf4j.api.feature/pom.xml</module>
+        <module>../nu.validator.htmlparser.feature/pom.xml</module>
+        <module>../javax.websocket.api.feature/pom.xml</module>
+        <module>../org.eclipse.jetty.servlet.feature/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.server.impl.feature/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.client.impl.feature/pom.xml</module>
     </modules>
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>
