@@ -20,10 +20,10 @@
     <feature id="org.eclipse.gef.lightweight">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.apache.httpclient.feature">
+    <feature id="org.apache.httpcomponents.httpclient.feature">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.apache.httpcore.feature">
+    <feature id="org.apache.httpcomponents.httpcore.feature">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.beanshell.bsh.feature">
@@ -36,9 +36,6 @@
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="com.fasterxml.jackson.feature">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="javax.servlet.api.feature">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="javax.ws.rs.api.feature">

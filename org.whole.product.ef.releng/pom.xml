@@ -18,13 +18,12 @@
     <modules>
         <module>../org.whole.product.ef.target/pom.xml</module>
         <module>../org.whole.product.ef.repository/pom.xml</module>
-        <module>../org.apache.httpclient.feature/pom.xml</module>
-        <module>../org.apache.httpcore.feature/pom.xml</module>
+        <module>../org.apache.httpcomponents.httpclient.feature/pom.xml</module>
+        <module>../org.apache.httpcomponents.httpcore.feature/pom.xml</module>
         <module>../org.beanshell.bsh.feature/pom.xml</module>
         <module>../org.gradle.feature/pom.xml</module>
         <module>../org.h2.feature/pom.xml</module>
         <module>../com.fasterxml.jackson.feature/pom.xml</module>
-        <module>../javax.servlet.api.feature/pom.xml</module>
         <module>../javax.ws.rs.api.feature/pom.xml</module>
         <module>../jersey.container.servlet.feature/pom.xml</module>
         <module>../net.sourceforge.jodatime.feature/pom.xml</module>

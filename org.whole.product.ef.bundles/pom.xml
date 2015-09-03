@@ -24,7 +24,7 @@
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>
-                                        <Bundle-SymbolicName>org.apache.httpclient</Bundle-SymbolicName>
+                                        <Bundle-SymbolicName>org.apache.httpcomponents.httpclient</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -32,7 +32,7 @@
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>
-                                        <Bundle-SymbolicName>org.apache.httpcore</Bundle-SymbolicName>
+                                        <Bundle-SymbolicName>org.apache.httpcomponents.httpcore</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -65,14 +65,6 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>com.fasterxml.jackson</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>javax.servlet:javax.servlet-api:3.1.0</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>javax.servlet.api</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>

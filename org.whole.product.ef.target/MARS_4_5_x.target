@@ -10,10 +10,10 @@
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="file:../org.whole.product.ef.bundles/target/repository/"/>
-            <unit id="org.apache.httpclient" version="4.5.0"/>
-            <unit id="org.apache.httpclient.source" version="4.5.0"/>
-            <unit id="org.apache.httpcore" version="4.4.1"/>
-            <unit id="org.apache.httpcore.source" version="4.4.1"/>
+            <unit id="org.apache.httpcomponents.httpclient" version="4.5.0"/>
+            <unit id="org.apache.httpcomponents.httpclient.source" version="4.5.0"/>
+            <unit id="org.apache.httpcomponents.httpcore" version="4.4.1"/>
+            <unit id="org.apache.httpcomponents.httpcore.source" version="4.4.1"/>
             <unit id="org.beanshell.bsh" version="2.0.0.0b5"/>
             <unit id="org.beanshell.bsh.source" version="2.0.0.0b5"/>
             <unit id="org.gradle" version="2.4.0"/>
@@ -22,8 +22,6 @@
             <unit id="org.h2.source" version="1.2.147"/>
             <unit id="com.fasterxml.jackson" version="2.3.1"/>
             <unit id="com.fasterxml.jackson.source" version="2.3.1"/>
-            <unit id="javax.servlet.api" version="3.1.0"/>
-            <unit id="javax.servlet.api.source" version="3.1.0"/>
             <unit id="javax.ws.rs.api" version="2.0.1"/>
             <unit id="javax.ws.rs.api.source" version="2.0.1"/>
             <unit id="jersey.container.servlet" version="2.19.0"/>
