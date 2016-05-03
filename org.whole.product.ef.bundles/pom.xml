@@ -163,6 +163,14 @@
                                         <Bundle-SymbolicName>org.eclipse.jetty.websocket.client.impl</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
+                                <artifact>
+                                    <id>com.github.jai-imageio:jai-imageio-core:1.3.1</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>com.github.jai.imageio.core</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>

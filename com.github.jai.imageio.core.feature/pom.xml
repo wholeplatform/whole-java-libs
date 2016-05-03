@@ -7,7 +7,7 @@
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
-    <artifactId>org.apache.httpcore.feature</artifactId>
-    <version>4.4.1</version>
+    <artifactId>com.github.jai.imageio.core.feature</artifactId>
+    <version>1.3.1</version>
     <packaging>eclipse-feature</packaging>
 </project>
