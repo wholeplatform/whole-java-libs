@@ -37,6 +37,10 @@
         <module>../org.eclipse.jetty.websocket.server.impl.feature/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.client.impl.feature/pom.xml</module>
         <module>../com.github.jai.imageio.core.feature/pom.xml</module>
+        <module>../org.antlr.antlr4.feature/pom.xml</module>
+        <module>../org.antlr.antlr4-runtime.feature/pom.xml</module>
+        <module>../net.java.dev.jna.jna.feature/pom.xml</module>
+        <module>../ca.weblite.java-objc-bridge.feature/pom.xml</module>
     </modules>
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="net.java.dev.jna.jna.feature" label="%featureName" version="4.2.2" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="net.java.dev.jna.jna" download-size="0" install-size="0" version="4.2.2"/>
+    <plugin id="net.java.dev.jna.jna.source" download-size="0" install-size="0" version="4.2.2"/>
+</feature>

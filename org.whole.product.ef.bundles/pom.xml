@@ -171,6 +171,38 @@
                                         <Bundle-SymbolicName>com.github.jai.imageio.core</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
+                                <artifact>
+                                    <id>org.antlr:antlr4:4.5.3</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>org.antlr.antlr4</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>org.antlr:antlr4-runtime:4.5.3</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>org.antlr.antlr4-runtime</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>net.java.dev.jna:jna:4.2.2</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>net.java.dev.jna.jna</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
+                                    <id>ca.weblite:java-objc-bridge:1.0.0</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>ca.weblite.java-objc-bridge</Bundle-SymbolicName>
+                                    </instructions>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
