@@ -38,8 +38,7 @@
         <module>../org.eclipse.jetty.websocket.client.impl.feature/pom.xml</module>
         <module>../com.github.jai.imageio.core.feature/pom.xml</module>
         <module>../org.antlr.antlr4.feature/pom.xml</module>
-        <module>../org.antlr.antlr4-runtime.feature/pom.xml</module>
-        <module>../net.java.dev.jna.jna.feature/pom.xml</module>
+        <module>../net.java.dev.jna.feature/pom.xml</module>
         <module>../ca.weblite.java-objc-bridge.feature/pom.xml</module>
     </modules>
     <build>
@@ -153,7 +152,7 @@
         <jdk-version>1.8</jdk-version>
         <compiler-version>2.4</compiler-version>
         <wagon-ssh-version>2.2</wagon-ssh-version>
-        <tycho-version>0.23.0</tycho-version>
+        <tycho-version>0.25.0</tycho-version>
         <assembly-version>2.3</assembly-version>
         <source-version>2.1.2</source-version>
         <resources-version>2.5</resources-version>

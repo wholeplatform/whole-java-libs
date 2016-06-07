@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.antlr.antlr4-runtime.feature" label="%featureName" version="4.5.3" provider-name="%providerName">
+<feature id="net.java.dev.jna.feature" label="%featureName" version="4.2.2" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
         <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
     </url>
-    <plugin id="org.antlr.antlr4-runtime" download-size="0" install-size="0" version="4.5.3"/>
-    <plugin id="org.antlr.antlr4-runtime.source" download-size="0" install-size="0" version="4.5.3"/>
+    <plugin id="net.java.dev.jna" download-size="0" install-size="0" version="4.2.2"/>
+    <plugin id="net.java.dev.jna.source" download-size="0" install-size="0" version="4.2.2"/>
 </feature>

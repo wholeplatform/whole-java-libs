@@ -180,19 +180,11 @@
                                     </instructions>
                                 </artifact>
                                 <artifact>
-                                    <id>org.antlr:antlr4-runtime:4.5.3</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>org.antlr.antlr4-runtime</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
                                     <id>net.java.dev.jna:jna:4.2.2</id>
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>
-                                        <Bundle-SymbolicName>net.java.dev.jna.jna</Bundle-SymbolicName>
+                                        <Bundle-SymbolicName>net.java.dev.jna</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
                                 <artifact>

@@ -15,5 +15,5 @@
     </url>
     <plugin id="ca.weblite.java-objc-bridge" download-size="0" install-size="0" version="1.0.0"/>
     <plugin id="ca.weblite.java-objc-bridge.source" download-size="0" install-size="0" version="1.0.0"/>
-    <plugin id="net.java.dev.jna.jna" download-size="0" install-size="0" version="4.2.2"/>
+    <plugin id="net.java.dev.jna" download-size="0" install-size="0" version="4.2.2"/>
 </feature>
