@@ -6,6 +6,8 @@
             <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
             <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.scout.rt.batik.dependency.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.scout.rt.batik.dependency.source.feature.group" version="0.0.0"/>
             <repository location="http://download.eclipse.org/releases/mars"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">

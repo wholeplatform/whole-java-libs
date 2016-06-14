@@ -8,6 +8,12 @@
     <feature id="org.eclipse.e4.core.tools.feature">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.eclipse.scout.rt.batik.dependency">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.scout.rt.batik.dependency.source">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.eclipse.draw2d">
         <category name="whole-enabling-features"/>
     </feature>
