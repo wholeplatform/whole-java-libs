@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.mozilla.rhino" label="%featureName" version="1.7.6" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="org.mozilla.rhino" download-size="0" install-size="0" version="1.7.6"/>
+    <plugin id="org.mozilla.rhino.source" download-size="0" install-size="0" version="1.7.6"/>
+</feature>

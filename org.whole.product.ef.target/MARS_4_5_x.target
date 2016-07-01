@@ -3,12 +3,13 @@
 <target name="MARS_4_5_x" sequenceNumber="26">
     <locations>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+            <repository location="http://download.eclipse.org/releases/mars"/>
             <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
             <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
+            <unit id="org.eclipse.jgit.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.scout.rt.batik.dependency.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.scout.rt.batik.dependency.source.feature.group" version="0.0.0"/>
-            <repository location="http://download.eclipse.org/releases/mars"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="file:../org.whole.product.ef.bundles/target/repository/"/>
@@ -18,8 +19,6 @@
             <unit id="org.apache.httpcomponents.httpcore.source" version="4.4.1"/>
             <unit id="org.beanshell.bsh" version="2.0.0.0b5"/>
             <unit id="org.beanshell.bsh.source" version="2.0.0.0b5"/>
-            <unit id="org.gradle" version="2.4.0"/>
-            <unit id="org.gradle.source" version="2.4.0"/>
             <unit id="org.h2" version="1.2.147"/>
             <unit id="org.h2.source" version="1.2.147"/>
             <unit id="com.fasterxml.jackson" version="2.3.1"/>
@@ -30,14 +29,8 @@
             <unit id="jersey.container.servlet.source" version="2.19.0"/>
             <unit id="net.sourceforge.jodatime" version="1.6.2"/>
             <unit id="net.sourceforge.jodatime.source" version="1.6.2"/>
-            <unit id="ch.qos.logback.classic" version="1.1.3"/>
-            <unit id="ch.qos.logback.classic.source" version="1.1.3"/>
-            <unit id="ch.qos.logback.core" version="1.1.3"/>
-            <unit id="ch.qos.logback.core.source" version="1.1.3"/>
             <unit id="org.mozilla.rhino" version="1.7.6"/>
             <unit id="org.mozilla.rhino.source" version="1.7.6"/>
-            <unit id="org.slf4j.api" version="1.7.10"/>
-            <unit id="org.slf4j.api.source" version="1.7.10"/>
             <unit id="nu.validator.htmlparser" version="1.4.1"/>
             <unit id="nu.validator.htmlparser.source" version="1.4.1"/>
             <unit id="javax.websocket.api" version="1.1.0"/>

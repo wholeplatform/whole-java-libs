@@ -8,12 +8,6 @@
     <feature id="org.eclipse.e4.core.tools.feature">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.scout.rt.batik.dependency">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.scout.rt.batik.dependency.source">
-        <category name="whole-enabling-features"/>
-    </feature>
     <feature id="org.eclipse.draw2d">
         <category name="whole-enabling-features"/>
     </feature>
@@ -53,70 +47,67 @@
     <feature id="org.eclipse.gef.all">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.apache.httpcomponents.httpclient.feature">
+    <feature id="org.apache.httpcomponents.httpclient">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.apache.httpcomponents.httpcore.feature">
+    <feature id="org.apache.httpcomponents.httpcore">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.beanshell.bsh.feature">
+    <feature id="org.beanshell.bsh">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.gradle.feature">
+    <feature id="org.h2">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.h2.feature">
+    <feature id="com.fasterxml.jackson">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="com.fasterxml.jackson.feature">
+    <feature id="javax.ws.rs.api">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="javax.ws.rs.api.feature">
+    <feature id="jersey.container.servlet">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="jersey.container.servlet.feature">
+    <feature id="org.eclipse.jgit">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="net.sourceforge.jodatime.feature">
+    <feature id="net.sourceforge.jodatime">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="ch.qos.logback.classic.feature">
+    <feature id="org.mozilla.rhino">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="ch.qos.logback.core.feature">
+    <feature id="nu.validator.htmlparser">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.mozilla.rhino.feature">
+    <feature id="javax.websocket.api">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.slf4j.api.feature">
+    <feature id="org.eclipse.jetty.servlet">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="nu.validator.htmlparser.feature">
+    <feature id="org.eclipse.jetty.websocket.server.impl">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="javax.websocket.api.feature">
+    <feature id="org.eclipse.jetty.websocket.client.impl">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.jetty.servlet.feature">
+    <feature id="com.github.jai.imageio.core">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.jetty.websocket.server.impl.feature">
+    <feature id="org.eclipse.scout.rt.batik.dependency">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.jetty.websocket.client.impl.feature">
+    <feature id="org.eclipse.scout.rt.batik.dependency.source">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="com.github.jai.imageio.core.feature">
+    <feature id="org.antlr.antlr4">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.antlr.antlr4.feature">
+    <feature id="net.java.dev.jna">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="net.java.dev.jna.feature">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="ca.weblite.java-objc-bridge.feature">
+    <feature id="ca.weblite.java-objc-bridge">
         <category name="whole-enabling-features"/>
     </feature>
 </site>

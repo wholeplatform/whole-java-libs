@@ -18,28 +18,24 @@
     <modules>
         <module>../org.whole.product.ef.target/pom.xml</module>
         <module>../org.whole.product.ef.repository/pom.xml</module>
-        <module>../org.apache.httpcomponents.httpclient.feature/pom.xml</module>
-        <module>../org.apache.httpcomponents.httpcore.feature/pom.xml</module>
-        <module>../org.beanshell.bsh.feature/pom.xml</module>
-        <module>../org.gradle.feature/pom.xml</module>
-        <module>../org.h2.feature/pom.xml</module>
-        <module>../com.fasterxml.jackson.feature/pom.xml</module>
-        <module>../javax.ws.rs.api.feature/pom.xml</module>
-        <module>../jersey.container.servlet.feature/pom.xml</module>
-        <module>../net.sourceforge.jodatime.feature/pom.xml</module>
-        <module>../ch.qos.logback.classic.feature/pom.xml</module>
-        <module>../ch.qos.logback.core.feature/pom.xml</module>
-        <module>../org.mozilla.rhino.feature/pom.xml</module>
-        <module>../org.slf4j.api.feature/pom.xml</module>
-        <module>../nu.validator.htmlparser.feature/pom.xml</module>
-        <module>../javax.websocket.api.feature/pom.xml</module>
-        <module>../org.eclipse.jetty.servlet.feature/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.server.impl.feature/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.client.impl.feature/pom.xml</module>
-        <module>../com.github.jai.imageio.core.feature/pom.xml</module>
-        <module>../org.antlr.antlr4.feature/pom.xml</module>
-        <module>../net.java.dev.jna.feature/pom.xml</module>
-        <module>../ca.weblite.java-objc-bridge.feature/pom.xml</module>
+        <module>../org.apache.httpcomponents.httpclient/pom.xml</module>
+        <module>../org.apache.httpcomponents.httpcore/pom.xml</module>
+        <module>../org.beanshell.bsh/pom.xml</module>
+        <module>../org.h2/pom.xml</module>
+        <module>../com.fasterxml.jackson/pom.xml</module>
+        <module>../javax.ws.rs.api/pom.xml</module>
+        <module>../jersey.container.servlet/pom.xml</module>
+        <module>../net.sourceforge.jodatime/pom.xml</module>
+        <module>../org.mozilla.rhino/pom.xml</module>
+        <module>../nu.validator.htmlparser/pom.xml</module>
+        <module>../javax.websocket.api/pom.xml</module>
+        <module>../org.eclipse.jetty.servlet/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.server.impl/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.client.impl/pom.xml</module>
+        <module>../com.github.jai.imageio.core/pom.xml</module>
+        <module>../org.antlr.antlr4/pom.xml</module>
+        <module>../net.java.dev.jna/pom.xml</module>
+        <module>../ca.weblite.java-objc-bridge/pom.xml</module>
     </modules>
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>
