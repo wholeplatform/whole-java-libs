@@ -28,7 +28,7 @@ task set_meta_version(description: "Set the meta version") << {
 
 task package_gef << {
 	gitClone("git://github.com/enricopersiani/gef.git", "${relengDir}/gef-build")
-    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "MARS_4_5.target")
+    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "NEON_4_6_x.target")
 }
 package_gef.onlyIf { !new File("${relengDir}/gef-build").exists() }
 
