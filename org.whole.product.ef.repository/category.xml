@@ -2,8 +2,8 @@
 <site>
     <category-def name="whole-enabling-features" label="Whole Platform Enabling Features 1.0.0.qualifier">
         <description>
-         Provide functionalities required by one or more of the Whole features.
-      </description>
+            Provide functionalities required by one or more of the Whole features.
+        </description>
     </category-def>
     <feature id="org.eclipse.e4.core.tools.feature">
         <category name="whole-enabling-features"/>
