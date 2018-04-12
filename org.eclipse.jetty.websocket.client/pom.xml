@@ -7,7 +7,7 @@
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
-    <artifactId>org.eclipse.jetty.websocket.client.impl</artifactId>
-    <version>9.3.2.v20150730</version>
+    <artifactId>org.eclipse.jetty.websocket.client</artifactId>
+    <version>9.4.8.v20171121</version>
     <packaging>eclipse-feature</packaging>
 </project>

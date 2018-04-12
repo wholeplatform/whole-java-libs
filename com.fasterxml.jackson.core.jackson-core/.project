@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-    <name>com.fasterxml.jackson</name>
+    <name>com.fasterxml.jackson.core.jackson-core</name>
     <comment/>
     <projects/>
     <buildSpec>

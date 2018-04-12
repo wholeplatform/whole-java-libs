@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-    <name>org.eclipse.jetty.websocket.client.impl</name>
+    <name>org.eclipse.jetty.websocket.client</name>
     <comment/>
     <projects/>
     <buildSpec>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.apache.batik.util.gui" label="%featureName" version="1.7.0.v200903091627" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="org.apache.batik.util.gui" download-size="0" install-size="0" version="1.7.0.v200903091627"/>
+    <plugin id="org.apache.batik.util.gui.source" download-size="0" install-size="0" version="1.7.0.v200903091627"/>
+</feature>

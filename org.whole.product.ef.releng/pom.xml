@@ -22,20 +22,42 @@
         <module>../org.apache.httpcomponents.httpcore/pom.xml</module>
         <module>../org.beanshell.bsh/pom.xml</module>
         <module>../org.h2/pom.xml</module>
-        <module>../com.fasterxml.jackson/pom.xml</module>
-        <module>../javax.ws.rs.api/pom.xml</module>
-        <module>../jersey.container.servlet/pom.xml</module>
+        <module>../com.fasterxml.jackson.core.jackson-core/pom.xml</module>
+        <module>../javax.ws.rs/pom.xml</module>
+        <module>../org.glassfish.jersey.containers.servlet/pom.xml</module>
+        <module>../org.glassfish.jersey.containers.servlet.core/pom.xml</module>
         <module>../net.sourceforge.jodatime/pom.xml</module>
         <module>../org.mozilla.rhino/pom.xml</module>
         <module>../nu.validator.htmlparser/pom.xml</module>
-        <module>../javax.websocket.api/pom.xml</module>
+        <module>../javax.websocket/pom.xml</module>
         <module>../org.eclipse.jetty.servlet/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.server.impl/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.client.impl/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.api/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.common/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.servlet/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.server/pom.xml</module>
+        <module>../org.eclipse.jetty.client/pom.xml</module>
+        <module>../org.eclipse.jetty.websocket.client/pom.xml</module>
         <module>../com.github.jai.imageio.core/pom.xml</module>
-        <module>../org.antlr.antlr4/pom.xml</module>
-        <module>../net.java.dev.jna/pom.xml</module>
+        <module>../org.antlr.runtime/pom.xml</module>
+        <module>../com.sun.jna/pom.xml</module>
+        <module>../javax.servlet/pom.xml</module>
+        <module>../org.apache.batik.bridge/pom.xml</module>
+        <module>../org.apache.batik.css/pom.xml</module>
+        <module>../org.apache.batik.dom/pom.xml</module>
+        <module>../org.apache.batik.dom.svg/pom.xml</module>
+        <module>../org.apache.batik.ext.awt/pom.xml</module>
+        <module>../org.apache.batik.extension/pom.xml</module>
+        <module>../org.apache.batik.parser/pom.xml</module>
+        <module>../org.apache.batik.svggen/pom.xml</module>
+        <module>../org.apache.batik.swing/pom.xml</module>
+        <module>../org.apache.batik.transcoder/pom.xml</module>
+        <module>../org.apache.batik.util/pom.xml</module>
+        <module>../org.apache.batik.util.gui/pom.xml</module>
+        <module>../org.apache.batik.xml/pom.xml</module>
         <module>../ca.weblite.java-objc-bridge/pom.xml</module>
+        <module>../org.apache.aries.spifly.dynamic.bundle/pom.xml</module>
+        <module>../org.objectweb.asm.all/pom.xml</module>
+        <module>../org.apache.aries.util/pom.xml</module>
     </modules>
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>
@@ -115,7 +137,7 @@
                             <groupId>com.wholeplatform</groupId>
                             <artifactId>org.whole.product.ef.target</artifactId>
                             <version>1.0.0-SNAPSHOT</version>
-                            <classifier>NEON_4_6_x</classifier>
+                            <classifier>OXYGEN</classifier>
                         </artifact>
                     </target>
                     <environments>
@@ -148,7 +170,7 @@
         <jdk-version>1.8</jdk-version>
         <compiler-version>2.4</compiler-version>
         <wagon-ssh-version>2.2</wagon-ssh-version>
-        <tycho-version>0.25.0</tycho-version>
+        <tycho-version>1.1.0</tycho-version>
         <assembly-version>2.3</assembly-version>
         <source-version>2.1.2</source-version>
         <resources-version>2.5</resources-version>

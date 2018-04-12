@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.glassfish.jersey.containers.servlet.core" label="%featureName" version="2.22.1.v20161103-0227" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="org.glassfish.jersey.containers.servlet.core" download-size="0" install-size="0" version="2.22.1.v20161103-0227"/>
+    <plugin id="org.glassfish.jersey.containers.servlet.core.source" download-size="0" install-size="0" version="2.22.1.v20161103-0227"/>
+</feature>

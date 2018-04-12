@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>org.mozilla.rhino</artifactId>
-    <version>1.7.6</version>
+    <version>1.7.9</version>
     <packaging>eclipse-feature</packaging>
 </project>

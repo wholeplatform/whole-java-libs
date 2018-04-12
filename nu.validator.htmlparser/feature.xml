@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="nu.validator.htmlparser" label="%featureName" version="1.4.1" provider-name="%providerName">
+<feature id="nu.validator.htmlparser" label="%featureName" version="1.4.11" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
         <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
     </url>
-    <plugin id="nu.validator.htmlparser" download-size="0" install-size="0" version="1.4.1"/>
-    <plugin id="nu.validator.htmlparser.source" download-size="0" install-size="0" version="1.4.1"/>
+    <plugin id="nu.validator.htmlparser" download-size="0" install-size="0" version="1.4.11"/>
+    <plugin id="nu.validator.htmlparser.source" download-size="0" install-size="0" version="1.4.11"/>
 </feature>

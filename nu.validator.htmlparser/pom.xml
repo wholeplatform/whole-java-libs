@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>nu.validator.htmlparser</artifactId>
-    <version>1.4.1</version>
+    <version>1.4.11</version>
     <packaging>eclipse-feature</packaging>
 </project>

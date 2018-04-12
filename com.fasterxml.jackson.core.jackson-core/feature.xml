@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="com.fasterxml.jackson" label="%featureName" version="2.3.1" provider-name="%providerName">
+<feature id="com.fasterxml.jackson.core.jackson-core" label="%featureName" version="2.6.2.v20161117-2150" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
         <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
     </url>
-    <plugin id="com.fasterxml.jackson" download-size="0" install-size="0" version="2.3.1"/>
-    <plugin id="com.fasterxml.jackson.source" download-size="0" install-size="0" version="2.3.1"/>
+    <plugin id="com.fasterxml.jackson.core.jackson-core" download-size="0" install-size="0" version="2.6.2.v20161117-2150"/>
+    <plugin id="com.fasterxml.jackson.core.jackson-core.source" download-size="0" install-size="0" version="2.6.2.v20161117-2150"/>
 </feature>

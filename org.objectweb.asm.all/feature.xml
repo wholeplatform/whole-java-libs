@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.objectweb.asm.all" label="%featureName" version="5.0.4" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+    </url>
+    <plugin id="org.ow2.asm.asm-all" download-size="0" install-size="0" version="5.0.4"/>
+    <plugin id="org.ow2.asm.asm-all.source" download-size="0" install-size="0" version="5.0.4"/>
+</feature>
