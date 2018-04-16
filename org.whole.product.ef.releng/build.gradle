@@ -4,65 +4,81 @@ def lwRelengDir = "${reposDir}/whole/org.whole.products.releng"
 apply from: "${lwRelengDir}/common.gradle"
 def bundlesDir = "${relengDir}/../org.whole.product.ef.bundles"
 
-task set_build_version(description: "Set the build version") << {
-	ant.replace(dir: repoDir, token: versionNumOld+".qualifier", value: fullVersion, summary: true) {
-		include(name: "*/feature.xml")
-		include(name: "*/category.xml")
-	}
-	
-	ant.replace(dir: repoDir, token: versionNumOld+"-SNAPSHOT", value: fullVersion, summary: true) {
-		include(name: "*/pom.xml")
-	}
-}
-
-task set_meta_version(description: "Set the meta version") << {
-	ant.replace(dir: repoDir, token: fullVersion, value: versionNum+".qualifier", summary: true) {
-		include(name: "*/feature.xml")
-		include(name: "*/category.xml")
-	}
-	
-	ant.replace(dir: repoDir, token: fullVersion, value: versionNum+"-SNAPSHOT", summary: true) {
-		include(name: "*/pom.xml")
+task set_build_version(description: "Set the build version") {
+	doLast  {
+		ant.replace(dir: repoDir, token: versionNumOld+".qualifier", value: fullVersion, summary: true) {
+			include(name: "*/feature.xml")
+			include(name: "*/category.xml")
+		}
+		
+		ant.replace(dir: repoDir, token: versionNumOld+"-SNAPSHOT", value: fullVersion, summary: true) {
+			include(name: "*/pom.xml")
+		}
 	}
 }
 
-task package_gef << {
-	gitClone("git://github.com/enricopersiani/gef-legacy-e4.git", "${relengDir}/gef-build")
-    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "OXYGEN.target")
+task set_meta_version(description: "Set the meta version") {
+	doLast  {
+		ant.replace(dir: repoDir, token: fullVersion, value: versionNum+".qualifier", summary: true) {
+			include(name: "*/feature.xml")
+			include(name: "*/category.xml")
+		}
+		
+		ant.replace(dir: repoDir, token: fullVersion, value: versionNum+"-SNAPSHOT", summary: true) {
+			include(name: "*/pom.xml")
+		}
+	}
+}
+
+task package_gef {
+	doLast  {
+		gitClone("git://github.com/enricopersiani/gef-legacy-e4.git", "${relengDir}/gef-build")
+	    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "OXYGEN.target")
+	}
 }
 package_gef.onlyIf { !new File("${relengDir}/gef-build").exists() }
 
-task clean_ef << {
-    launchMaven(relengDir, "pom.xml", "clean")
-    launchMaven(bundlesDir, "pom.xml", "clean")
+task clean_ef {
+	doLast  {
+	    launchMaven(relengDir, "pom.xml", "clean")
+	    launchMaven(bundlesDir, "pom.xml", "clean")
+	}
 }
 
-task package_ef(dependsOn: [set_build_version, package_gef]) << {
-    launchMaven(bundlesDir, "pom.xml", "package")
-	launchMaven(relengDir, "pom.xml", "package")
+task package_ef(dependsOn: [set_build_version, package_gef]) {
+	doLast  {
+	    launchMaven(bundlesDir, "pom.xml", "package")
+		launchMaven(relengDir, "pom.xml", "package")
+	}
 }
 package_ef.onlyIf { !failure && (!existsBuildArtifactsDir || hasUncommittedChanges) }
 package_ef.finalizedBy set_meta_version
 
-task build_ef(dependsOn: [init_build, package_ef]) << {
-	ant.move(toDir: buildArtifactsDir, failonerror:false) {
-		fileset(dir: "${repoDir}/org.whole.product.ef.repository/target", includes: "whole-*.zip")
+task build_ef(dependsOn: [init_build, package_ef]) {
+	doLast  {
+		ant.move(toDir: buildArtifactsDir, failonerror:false) {
+			fileset(dir: "${repoDir}/org.whole.product.ef.repository/target", includes: "whole-*.zip")
+		}
+		ant.delete(dir: "${relengDir}/whole-ef-updates")
+		ant.unzip(src: "${buildArtifactsDir}/whole-enabling-features-updatesite-${fullVersion}.zip", dest: "${relengDir}/whole-ef-updates")
 	}
-	ant.delete(dir: "${relengDir}/whole-ef-updates")
-	ant.unzip(src: "${buildArtifactsDir}/whole-enabling-features-updatesite-${fullVersion}.zip", dest: "${relengDir}/whole-ef-updates")
 }
 build_ef.onlyIf { !failure }
 build_ef.finalizedBy clean_ef
 
-task clean_updates(description: "Clean updates repository") << {
-	ant.delete(dir: "${relengDir}/whole-ef-updates")
+task clean_updates(description: "Clean updates repository") {
+	doLast  {
+		ant.delete(dir: "${relengDir}/whole-ef-updates")
+	}
 }
 
-task clean(dependsOn: clean_ef, description: "Clean") << {
-    ant.delete(dir: "${relengDir}/gef-build")
-	ant.delete(dir: "${relengDir}/e4releng-build")
-    ant.delete(dir: "${relengDir}/builds")
-	ant.delete(dir: "${relengDir}/whole-ef-updates")
+task clean(dependsOn: clean_ef, description: "Clean") {
+	doLast  {
+	    ant.delete(dir: "${relengDir}/gef-build")
+		ant.delete(dir: "${relengDir}/e4releng-build")
+	    ant.delete(dir: "${relengDir}/builds")
+		ant.delete(dir: "${relengDir}/whole-ef-updates")
+	}
 }
 
 task build(dependsOn: build_ef, description: "Generates all distribution archives")
