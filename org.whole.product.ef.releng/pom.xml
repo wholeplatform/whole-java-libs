@@ -30,7 +30,12 @@
         <module>../org.mozilla.rhino/pom.xml</module>
         <module>../nu.validator.htmlparser/pom.xml</module>
         <module>../javax.websocket/pom.xml</module>
+        <module>../org.eclipse.jetty.security/pom.xml</module>
+        <module>../org.eclipse.jetty.util/pom.xml</module>
+        <module>../org.eclipse.jetty.io/pom.xml</module>
+        <module>../org.eclipse.jetty.http/pom.xml</module>
         <module>../org.eclipse.jetty.servlet/pom.xml</module>
+        <module>../org.eclipse.jetty.server/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.api/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.common/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.servlet/pom.xml</module>
@@ -55,9 +60,6 @@
         <module>../org.apache.batik.util.gui/pom.xml</module>
         <module>../org.apache.batik.xml/pom.xml</module>
         <module>../ca.weblite.java-objc-bridge/pom.xml</module>
-        <module>../org.apache.aries.spifly.dynamic.bundle/pom.xml</module>
-        <module>../org.objectweb.asm.all/pom.xml</module>
-        <module>../org.apache.aries.util/pom.xml</module>
     </modules>
     <build>
         <sourceDirectory>${basedir}/src</sourceDirectory>

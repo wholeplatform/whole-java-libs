@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.eclipse.jetty.websocket.common" label="%featureName" version="9.4.8.v20171121" provider-name="%providerName">
+<feature id="org.eclipse.jetty.websocket.common" label="%featureName" version="9.4.4.v20170414" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -10,9 +10,9 @@
       %license
    </license>
     <url>
-        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
-        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+        <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="org.eclipse.jetty.websocket.common" download-size="0" install-size="0" version="9.4.8.v20171121"/>
-    <plugin id="org.eclipse.jetty.websocket.common.source" download-size="0" install-size="0" version="9.4.8.v20171121"/>
+    <plugin id="org.eclipse.jetty.websocket.common" download-size="0" install-size="0" version="9.4.4.v20170414"/>
+    <plugin id="org.eclipse.jetty.websocket.common.source" download-size="0" install-size="0" version="9.4.4.v20170414"/>
 </feature>

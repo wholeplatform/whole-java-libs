@@ -10,8 +10,8 @@
       %license
    </license>
     <url>
-        <update label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
-        <discovery label="%updateSiteName" url="http://whole.sourceforge.net/updates"/>
+        <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+        <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
     <plugin id="com.fasterxml.jackson.core.jackson-core" download-size="0" install-size="0" version="2.6.2.v20161117-2150"/>
     <plugin id="com.fasterxml.jackson.core.jackson-core.source" download-size="0" install-size="0" version="2.6.2.v20161117-2150"/>

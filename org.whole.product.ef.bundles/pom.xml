@@ -83,30 +83,6 @@
                                         <Bundle-SymbolicName>ca.weblite.java-objc-bridge</Bundle-SymbolicName>
                                     </instructions>
                                 </artifact>
-                                <artifact>
-                                    <id>org.apache.aries.spifly:org.apache.aries.spifly.dynamic.bundle:1.0.10</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>org.apache.aries.spifly.org.apache.aries.spifly.dynamic.bundle</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>org.ow2.asm:asm-all:5.0.4</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>org.ow2.asm.asm-all</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.aries:org.apache.aries.util:1.1.1</id>
-                                    <source>true</source>
-                                    <override>true</override>
-                                    <instructions>
-                                        <Bundle-SymbolicName>org.apache.aries.org.apache.aries.util</Bundle-SymbolicName>
-                                    </instructions>
-                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>

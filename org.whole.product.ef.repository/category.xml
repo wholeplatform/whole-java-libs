@@ -89,7 +89,22 @@
     <feature id="javax.websocket">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.eclipse.jetty.security">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.util">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.io">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.http">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.eclipse.jetty.servlet">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.eclipse.jetty.server">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.eclipse.jetty.websocket.api">
@@ -162,15 +177,6 @@
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="ca.weblite.java-objc-bridge">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.apache.aries.spifly.dynamic.bundle">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.objectweb.asm.all">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.apache.aries.util">
         <category name="whole-enabling-features"/>
     </feature>
 </site>
