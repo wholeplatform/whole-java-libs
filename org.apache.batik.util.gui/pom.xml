@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>org.apache.batik.util.gui</artifactId>
-    <version>1.7.0.v200903091627</version>
+    <version>1.9.1.v20180227-1645</version>
     <packaging>eclipse-feature</packaging>
 </project>

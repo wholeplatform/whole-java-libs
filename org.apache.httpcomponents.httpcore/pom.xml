@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>org.apache.httpcomponents.httpcore</artifactId>
-    <version>4.4.6.v20170210-0925</version>
+    <version>4.4.9.v20180409-1525</version>
     <packaging>eclipse-feature</packaging>
 </project>

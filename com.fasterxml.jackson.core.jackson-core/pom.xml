@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>com.fasterxml.jackson.core.jackson-core</artifactId>
-    <version>2.6.2.v20161117-2150</version>
+    <version>2.9.2.v20180207-1730</version>
     <packaging>eclipse-feature</packaging>
 </project>

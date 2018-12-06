@@ -25,6 +25,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>org.beanshell.bsh</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>org.beanshell.bsh</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -33,6 +34,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>javax.ws.rs</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>javax.ws.rs</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -41,6 +43,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>net.sourceforge.jodatime</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>net.sourceforge.jodatime</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -49,6 +52,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>org.mozilla.rhino</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>org.mozilla.rhino</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -57,6 +61,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>nu.validator.htmlparser</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>nu.validator.htmlparser</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -65,6 +70,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>javax.websocket</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>javax.websocket</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -73,6 +79,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>com.github.jai.imageio.core</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>com.github.jai.imageio.core</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                                 <artifact>
@@ -81,6 +88,7 @@
                                     <override>true</override>
                                     <instructions>
                                         <Bundle-SymbolicName>ca.weblite.java-objc-bridge</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>ca.weblite.java-objc-bridge</Automatic-Module-Name>
                                     </instructions>
                                 </artifact>
                             </artifacts>

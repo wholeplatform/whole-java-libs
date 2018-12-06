@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.apache.httpcomponents.httpcore" label="%featureName" version="4.4.6.v20170210-0925" provider-name="%providerName">
+<feature id="org.apache.httpcomponents.httpcore" label="%featureName" version="4.4.9.v20180409-1525" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
         <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="org.apache.httpcomponents.httpcore" download-size="0" install-size="0" version="4.4.6.v20170210-0925"/>
-    <plugin id="org.apache.httpcomponents.httpcore.source" download-size="0" install-size="0" version="4.4.6.v20170210-0925"/>
+    <plugin id="org.apache.httpcomponents.httpcore" download-size="0" install-size="0" version="4.4.9.v20180409-1525"/>
+    <plugin id="org.apache.httpcomponents.httpcore.source" download-size="0" install-size="0" version="4.4.9.v20180409-1525"/>
 </feature>

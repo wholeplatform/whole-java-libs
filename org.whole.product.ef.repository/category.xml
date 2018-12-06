@@ -8,6 +8,9 @@
     <feature id="org.eclipse.e4.core.tools.feature">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.eclipse.e4.core.tools.feature.source">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.eclipse.draw2d">
         <category name="whole-enabling-features"/>
     </feature>
@@ -89,6 +92,9 @@
     <feature id="javax.websocket">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="javax.xml.stream">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.eclipse.jetty.security">
         <category name="whole-enabling-features"/>
     </feature>
@@ -137,7 +143,19 @@
     <feature id="javax.servlet">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.apache.xmlgraphics">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.apache.batik.anim">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.apache.batik.bridge">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.apache.batik.codec">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.apache.batik.constants">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.apache.batik.css">
@@ -155,7 +173,16 @@
     <feature id="org.apache.batik.extension">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.apache.batik.gvt">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.apache.batik.i18n">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.apache.batik.parser">
+        <category name="whole-enabling-features"/>
+    </feature>
+    <feature id="org.apache.batik.script">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.apache.batik.svggen">

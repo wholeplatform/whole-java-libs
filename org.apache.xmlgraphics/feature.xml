@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.apache.xmlgraphics" label="%featureName" version="2.2.0.v20180809-1640" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+        <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+    </url>
+    <plugin id="org.apache.xmlgraphics" download-size="0" install-size="0" version="2.2.0.v20180809-1640"/>
+    <plugin id="org.apache.xmlgraphics.source" download-size="0" install-size="0" version="2.2.0.v20180809-1640"/>
+</feature>
