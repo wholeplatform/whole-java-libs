@@ -32,8 +32,8 @@ task set_meta_version(description: "Set the meta version") {
 
 task package_gef {
 	doLast  {
-		gitClone("git://github.com/enricopersiani/gef-legacy-e4.git", "${relengDir}/gef-build", "${relengDir}/gef.patch")
-	    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "OXYGEN.target")
+		gitClone("git://github.com/enricopersiani/gef-legacy-e4.git", "${relengDir}/gef-build")
+	    launchMaven("${relengDir}/gef-build/org.eclipse.gef.releng", "pom.xml", "package", "ECLIPSE.target")
 	}
 }
 package_gef.onlyIf { !new File("${relengDir}/gef-build").exists() }
