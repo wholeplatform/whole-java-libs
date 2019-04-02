@@ -59,9 +59,6 @@
     <feature id="org.beanshell.bsh">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.buildship">
-        <category name="whole-enabling-features"/>
-    </feature>
     <feature id="org.h2">
         <category name="whole-enabling-features"/>
     </feature>
