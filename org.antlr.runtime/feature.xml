@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.antlr.runtime" label="%featureName" version="4.5.1.v20160210-1233" provider-name="%providerName">
+<feature id="org.antlr.runtime" label="%featureName" version="4.7.1.v20181120-0808" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,7 @@
         <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
         <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="org.antlr.runtime" download-size="0" install-size="0" version="4.5.1.v20160210-1233"/>
-    <plugin id="org.antlr.runtime.source" download-size="0" install-size="0" version="4.5.1.v20160210-1233"/>
+    <plugin id="org.antlr.runtime" download-size="0" install-size="0" version="4.7.1.v20181120-0808"/>
+    <plugin id="org.antlr.runtime.source" download-size="0" install-size="0" version="4.7.1.v20181120-0808"/>
+
 </feature>
