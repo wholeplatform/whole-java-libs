@@ -49,6 +49,7 @@
         <module>../org.eclipse.jetty.websocket.server/pom.xml</module>
         <module>../org.eclipse.jetty.client/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.client/pom.xml</module>
+        <module>../org.eclipse.jetty.xml/pom.xml</module>
         <module>../com.github.jai.imageio.core/pom.xml</module>
         <module>../org.antlr.runtime/pom.xml</module>
         <module>../com.sun.jna/pom.xml</module>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.jetty.xml" label="%featureName" version="9.4.15.v20190215" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+        <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+    </url>
+    <plugin id="org.eclipse.jetty.xml" download-size="0" install-size="0" version="9.4.15.v20190215"/>
+    <plugin id="org.eclipse.jetty.xml.source" download-size="0" install-size="0" version="9.4.15.v20190215"/>
+
+</feature>

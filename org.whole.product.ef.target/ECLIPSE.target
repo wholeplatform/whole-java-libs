@@ -117,6 +117,8 @@
             <unit id="org.eclipse.jetty.client.source" version="9.4.15.v20190215"/>
             <unit id="org.eclipse.jetty.websocket.client" version="9.4.15.v20190215"/>
             <unit id="org.eclipse.jetty.websocket.client.source" version="9.4.15.v20190215"/>
+            <unit id="org.eclipse.jetty.xml" version="9.4.15.v20190215"/>
+            <unit id="org.eclipse.jetty.xml.source" version="9.4.15.v20190215"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="file:gef-build/org.eclipse.gef.repository/target/repository/"/>
