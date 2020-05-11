@@ -12,8 +12,8 @@
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="file:../org.whole.product.ef.bundles/target/repository/"/>
-            <unit id="io.netty" version="4.1.49"/>
-            <unit id="io.netty.source" version="4.1.49"/>
+            <unit id="io.netty" version="4.1.49.Final"/>
+            <unit id="io.netty.source" version="4.1.49.Final"/>
             <unit id="org.beanshell.bsh" version="2.0.0.0b5"/>
             <unit id="org.beanshell.bsh.source" version="2.0.0.0b5"/>
             <unit id="javax.ws.rs" version="2.0.1"/>

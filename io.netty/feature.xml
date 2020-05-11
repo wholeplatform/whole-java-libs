@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="io.netty" label="%featureName" version="4.1.49" provider-name="%providerName">
+<feature id="io.netty" label="%featureName" version="4.1.49.Final" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
         <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="io.netty" download-size="0" install-size="0" version="4.1.49"/>
-    <plugin id="io.netty.source" download-size="0" install-size="0" version="4.1.49"/>
+    <plugin id="io.netty" download-size="0" install-size="0" version="4.1.49.Final"/>
+    <plugin id="io.netty.source" download-size="0" install-size="0" version="4.1.49.Final"/>
 </feature>

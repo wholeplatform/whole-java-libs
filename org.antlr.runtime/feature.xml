@@ -15,5 +15,4 @@
     </url>
     <plugin id="org.antlr.runtime" download-size="0" install-size="0" version="4.7.1.v20181120-0808"/>
     <plugin id="org.antlr.runtime.source" download-size="0" install-size="0" version="4.7.1.v20181120-0808"/>
-
 </feature>

@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>io.netty</artifactId>
-    <version>4.1.49</version>
+    <version>4.1.49.Final</version>
     <packaging>eclipse-feature</packaging>
 </project>

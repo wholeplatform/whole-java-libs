@@ -20,7 +20,7 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <id>io.netty:netty-all:4.1.49-final</id>
+                                    <id>io.netty:netty-all:4.1.49.Final</id>
                                     <source>true</source>
                                     <override>true</override>
                                     <instructions>

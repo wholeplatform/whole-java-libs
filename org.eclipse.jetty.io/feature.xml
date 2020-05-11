@@ -15,5 +15,4 @@
     </url>
     <plugin id="org.eclipse.jetty.io" download-size="0" install-size="0" version="9.4.15.v20190215"/>
     <plugin id="org.eclipse.jetty.io.source" download-size="0" install-size="0" version="9.4.15.v20190215"/>
-
 </feature>
