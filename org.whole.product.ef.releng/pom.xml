@@ -24,6 +24,7 @@
     <modules>
         <module>../org.whole.product.ef.target/pom.xml</module>
         <module>../org.whole.product.ef.repository/pom.xml</module>
+        <module>../io.netty/pom.xml</module>
         <module>../org.apache.httpcomponents.httpclient/pom.xml</module>
         <module>../org.apache.httpcomponents.httpcore/pom.xml</module>
         <module>../org.beanshell.bsh/pom.xml</module>
@@ -38,6 +39,7 @@
         <module>../javax.websocket/pom.xml</module>
         <module>../javax.xml.stream/pom.xml</module>
         <module>../org.eclipse.jetty.security/pom.xml</module>
+        <module>../org.eclipse.jetty.xml/pom.xml</module>
         <module>../org.eclipse.jetty.util/pom.xml</module>
         <module>../org.eclipse.jetty.io/pom.xml</module>
         <module>../org.eclipse.jetty.http/pom.xml</module>
@@ -49,7 +51,6 @@
         <module>../org.eclipse.jetty.websocket.server/pom.xml</module>
         <module>../org.eclipse.jetty.client/pom.xml</module>
         <module>../org.eclipse.jetty.websocket.client/pom.xml</module>
-        <module>../org.eclipse.jetty.xml/pom.xml</module>
         <module>../com.github.jai.imageio.core/pom.xml</module>
         <module>../org.antlr.runtime/pom.xml</module>
         <module>../com.sun.jna/pom.xml</module>

@@ -50,6 +50,9 @@
     <feature id="org.eclipse.gef.all">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="io.netty">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.apache.httpcomponents.httpclient">
         <category name="whole-enabling-features"/>
     </feature>
@@ -95,6 +98,9 @@
     <feature id="org.eclipse.jetty.security">
         <category name="whole-enabling-features"/>
     </feature>
+    <feature id="org.eclipse.jetty.xml">
+        <category name="whole-enabling-features"/>
+    </feature>
     <feature id="org.eclipse.jetty.util">
         <category name="whole-enabling-features"/>
     </feature>
@@ -126,9 +132,6 @@
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.eclipse.jetty.websocket.client">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.xml">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="com.github.jai.imageio.core">

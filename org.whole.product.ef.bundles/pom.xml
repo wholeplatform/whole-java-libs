@@ -20,6 +20,15 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
+                                    <id>io.netty:netty-all:4.1.49-final</id>
+                                    <source>true</source>
+                                    <override>true</override>
+                                    <instructions>
+                                        <Bundle-SymbolicName>io.netty</Bundle-SymbolicName>
+                                        <Automatic-Module-Name>io.netty</Automatic-Module-Name>
+                                    </instructions>
+                                </artifact>
+                                <artifact>
                                     <id>org.beanshell:bsh:2.0b5</id>
                                     <source>true</source>
                                     <override>true</override>
