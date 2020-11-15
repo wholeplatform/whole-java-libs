@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>org.eclipse.jetty.websocket.client</artifactId>
-    <version>9.4.15.v20190215</version>
+    <version>9.4.34.v20201102</version>
     <packaging>eclipse-feature</packaging>
 </project>

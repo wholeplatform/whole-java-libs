@@ -8,6 +8,6 @@
         <relativePath>../org.whole.product.ef.releng/pom.xml</relativePath>
     </parent>
     <artifactId>org.antlr.runtime</artifactId>
-    <version>4.7.1.v20181120-0808</version>
+    <version>4.7.2.v20200218-0804</version>
     <packaging>eclipse-feature</packaging>
 </project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.glassfish.jersey.containers.servlet" label="%featureName" version="2.22.1.v20161103-0227" provider-name="%providerName">
+<feature id="org.glassfish.jersey.containers.servlet" label="%featureName" version="2.30.1.v20200513-1859" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,7 +13,7 @@
         <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
         <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="org.glassfish.jersey.containers.servlet" download-size="0" install-size="0" version="2.22.1.v20161103-0227"/>
-    <plugin id="org.glassfish.jersey.containers.servlet.source" download-size="0" install-size="0" version="2.22.1.v20161103-0227"/>
-    <plugin id="org.glassfish.jersey.containers.servlet.core" download-size="0" install-size="0" version="2.22.1.v20161103-0227"/>
+    <plugin id="org.glassfish.jersey.containers.servlet" download-size="0" install-size="0" version="2.30.1.v20200513-1859"/>
+    <plugin id="org.glassfish.jersey.containers.servlet.source" download-size="0" install-size="0" version="2.30.1.v20200513-1859"/>
+    <plugin id="org.glassfish.jersey.containers.servlet.core" download-size="0" install-size="0" version="2.30.1.v20200513-1859"/>
 </feature>

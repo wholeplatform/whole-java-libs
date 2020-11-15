@@ -3,7 +3,7 @@
 <target name="ECLIPSE" sequenceNumber="26">
     <locations>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-            <repository location="http://download.eclipse.org/releases/2019-03"/>
+            <repository location="http://download.eclipse.org/releases/2020-09"/>
             <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
             <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
             <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
@@ -32,95 +32,95 @@
             <unit id="ca.weblite.java-objc-bridge.source" version="1.0.0"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-            <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20190226160451/repository"/>
-            <unit id="org.apache.httpcomponents.httpclient" version="4.5.6.v20190213-1430"/>
-            <unit id="org.apache.httpcomponents.httpclient.source" version="4.5.6.v20190213-1430"/>
-            <unit id="org.apache.httpcomponents.httpcore" version="4.4.10.v20190123-2214"/>
-            <unit id="org.apache.httpcomponents.httpcore.source" version="4.4.10.v20190123-2214"/>
+            <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20200831200620/repository"/>
+            <unit id="org.apache.httpcomponents.httpclient" version="4.5.10.v20200830-2311"/>
+            <unit id="org.apache.httpcomponents.httpclient.source" version="4.5.10.v20200830-2311"/>
+            <unit id="org.apache.httpcomponents.httpcore" version="4.4.12.v20200108-1212"/>
+            <unit id="org.apache.httpcomponents.httpcore.source" version="4.4.12.v20200108-1212"/>
             <unit id="org.h2" version="1.3.168.v201212121212"/>
             <unit id="org.h2.source" version="1.3.168.v201212121212"/>
-            <unit id="com.fasterxml.jackson.core.jackson-core" version="2.9.2.v20180207-1730"/>
-            <unit id="com.fasterxml.jackson.core.jackson-core.source" version="2.9.2.v20180207-1730"/>
-            <unit id="org.glassfish.jersey.containers.servlet" version="2.22.1.v20161103-0227"/>
-            <unit id="org.glassfish.jersey.containers.servlet.source" version="2.22.1.v20161103-0227"/>
-            <unit id="org.glassfish.jersey.containers.servlet.core" version="2.22.1.v20161103-0227"/>
-            <unit id="org.glassfish.jersey.containers.servlet.core.source" version="2.22.1.v20161103-0227"/>
+            <unit id="com.fasterxml.jackson.core.jackson-core" version="2.10.3.v20200512-1600"/>
+            <unit id="com.fasterxml.jackson.core.jackson-core.source" version="2.10.3.v20200512-1600"/>
+            <unit id="org.glassfish.jersey.containers.servlet" version="2.30.1.v20200513-1859"/>
+            <unit id="org.glassfish.jersey.containers.servlet.source" version="2.30.1.v20200513-1859"/>
+            <unit id="org.glassfish.jersey.containers.servlet.core" version="2.30.1.v20200513-1859"/>
+            <unit id="org.glassfish.jersey.containers.servlet.core.source" version="2.30.1.v20200513-1859"/>
             <unit id="javax.xml.stream" version="1.0.1.v201004272200"/>
-            <unit id="org.antlr.runtime" version="4.7.1.v20181120-0808"/>
-            <unit id="org.antlr.runtime.source" version="4.7.1.v20181120-0808"/>
-            <unit id="com.sun.jna" version="4.1.0.v20170410-1117"/>
-            <unit id="com.sun.jna.source" version="4.1.0.v20170410-1117"/>
+            <unit id="org.antlr.runtime" version="4.7.2.v20200218-0804"/>
+            <unit id="org.antlr.runtime.source" version="4.7.2.v20200218-0804"/>
+            <unit id="com.sun.jna" version="4.5.1.v20190425-1842"/>
+            <unit id="com.sun.jna.source" version="4.5.1.v20190425-1842"/>
             <unit id="javax.servlet" version="3.1.0.v201410161800"/>
             <unit id="javax.servlet.source" version="3.1.0.v201410161800"/>
-            <unit id="org.apache.xmlgraphics" version="2.2.0.v20180809-1640"/>
-            <unit id="org.apache.xmlgraphics.source" version="2.2.0.v20180809-1640"/>
-            <unit id="org.apache.batik.anim" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.anim.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.bridge" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.bridge.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.codec" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.codec.source" version="1.9.1.v20180313-1559"/>
+            <unit id="org.apache.xmlgraphics" version="2.4.0.v20200622-2037"/>
+            <unit id="org.apache.xmlgraphics.source" version="2.4.0.v20200622-2037"/>
+            <unit id="org.apache.batik.anim" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.anim.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.bridge" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.bridge.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.codec" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.codec.source" version="1.9.1.v20190730-1743"/>
             <unit id="org.apache.batik.constants" version="1.9.1.v20180227-1645"/>
             <unit id="org.apache.batik.constants.source" version="1.9.1.v20180227-1645"/>
             <unit id="org.apache.batik.css" version="1.9.1.v20181015-1528"/>
             <unit id="org.apache.batik.css.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.dom" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.dom.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.dom.svg" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.dom.svg.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.ext.awt" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.ext.awt.source" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.extension" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.extension.source" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.gvt" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.gvt.source" version="1.9.1.v20180227-1645"/>
+            <unit id="org.apache.batik.dom" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.dom.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.dom.svg" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.dom.svg.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.ext.awt" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.ext.awt.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.extension" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.extension.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.gvt" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.gvt.source" version="1.9.1.v20190730-1743"/>
             <unit id="org.apache.batik.i18n" version="1.9.1.v20180227-1645"/>
             <unit id="org.apache.batik.i18n.source" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.parser" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.parser.source" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.script" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.script.source" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.svggen" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.svggen.source" version="1.9.1.v20180313-1559"/>
-            <unit id="org.apache.batik.swing" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.swing.source" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.transcoder" version="1.9.1.v20181015-1528"/>
-            <unit id="org.apache.batik.transcoder.source" version="1.9.1.v20181015-1528"/>
+            <unit id="org.apache.batik.parser" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.parser.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.script" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.script.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.svggen" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.svggen.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.swing" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.swing.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.transcoder" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.transcoder.source" version="1.9.1.v20190730-1743"/>
             <unit id="org.apache.batik.util" version="1.9.1.v20180703-1553"/>
             <unit id="org.apache.batik.util.source" version="1.9.1.v20180703-1553"/>
-            <unit id="org.apache.batik.util.gui" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.util.gui.source" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.xml" version="1.9.1.v20180227-1645"/>
-            <unit id="org.apache.batik.xml.source" version="1.9.1.v20180227-1645"/>
+            <unit id="org.apache.batik.util.gui" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.util.gui.source" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.xml" version="1.9.1.v20190730-1743"/>
+            <unit id="org.apache.batik.xml.source" version="1.9.1.v20190730-1743"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="http://download.eclipse.org/jetty/updates/jetty-bundles-9.x"/>
-            <unit id="org.eclipse.jetty.security" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.security.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.xml" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.xml.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.util" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.util.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.io" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.io.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.http" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.http.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.servlet" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.servlet.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.server" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.server.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.api" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.api.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.common" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.common.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.servlet" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.servlet.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.server" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.server.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.client" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.client.source" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.client" version="9.4.15.v20190215"/>
-            <unit id="org.eclipse.jetty.websocket.client.source" version="9.4.15.v20190215"/>
+            <unit id="org.eclipse.jetty.security" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.security.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.xml" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.xml.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.util" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.util.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.io" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.io.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.http" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.http.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.servlet" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.servlet.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.server" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.server.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.api" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.api.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.common" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.common.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.servlet" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.servlet.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.server" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.server.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.client" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.client.source" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.client" version="9.4.34.v20201102"/>
+            <unit id="org.eclipse.jetty.websocket.client.source" version="9.4.34.v20201102"/>
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
             <repository location="file:gef-build/org.eclipse.gef.repository/target/repository/"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="org.apache.batik.anim" label="%featureName" version="1.9.1.v20181015-1528" provider-name="%providerName">
+<feature id="org.apache.batik.anim" label="%featureName" version="1.9.1.v20190730-1743" provider-name="%providerName">
     <description url="%descriptionURL">
       %description
    </description>
@@ -13,6 +13,6 @@
         <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
         <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
     </url>
-    <plugin id="org.apache.batik.anim" download-size="0" install-size="0" version="1.9.1.v20181015-1528"/>
-    <plugin id="org.apache.batik.anim.source" download-size="0" install-size="0" version="1.9.1.v20181015-1528"/>
+    <plugin id="org.apache.batik.anim" download-size="0" install-size="0" version="1.9.1.v20190730-1743"/>
+    <plugin id="org.apache.batik.anim.source" download-size="0" install-size="0" version="1.9.1.v20190730-1743"/>
 </feature>
