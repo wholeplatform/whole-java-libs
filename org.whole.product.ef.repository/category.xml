@@ -47,7 +47,7 @@
     <feature id="org.eclipse.zest.sdk">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.gef.all">
+    <feature id="org.eclipse.gef">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="io.netty">
@@ -71,10 +71,7 @@
     <feature id="javax.ws.rs">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.glassfish.jersey.containers.servlet">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.glassfish.jersey.containers.servlet.core">
+    <feature id="org.glassfish.jersey.bundles">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="org.eclipse.jgit">
@@ -95,43 +92,7 @@
     <feature id="javax.xml.stream">
         <category name="whole-enabling-features"/>
     </feature>
-    <feature id="org.eclipse.jetty.security">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.xml">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.util">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.io">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.http">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.servlet">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.server">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.websocket.api">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.websocket.common">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.websocket.servlet">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.websocket.server">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.client">
-        <category name="whole-enabling-features"/>
-    </feature>
-    <feature id="org.eclipse.jetty.websocket.client">
+    <feature id="org.eclipse.jetty.bundles">
         <category name="whole-enabling-features"/>
     </feature>
     <feature id="com.github.jai.imageio.core">

@@ -31,26 +31,13 @@
         <module>../org.h2/pom.xml</module>
         <module>../com.fasterxml.jackson.core.jackson-core/pom.xml</module>
         <module>../javax.ws.rs/pom.xml</module>
-        <module>../org.glassfish.jersey.containers.servlet/pom.xml</module>
-        <module>../org.glassfish.jersey.containers.servlet.core/pom.xml</module>
+        <module>../org.glassfish.jersey.bundles</module>
         <module>../net.sourceforge.jodatime/pom.xml</module>
         <module>../org.mozilla.rhino/pom.xml</module>
         <module>../nu.validator.htmlparser/pom.xml</module>
         <module>../javax.websocket/pom.xml</module>
         <module>../javax.xml.stream/pom.xml</module>
-        <module>../org.eclipse.jetty.security/pom.xml</module>
-        <module>../org.eclipse.jetty.xml/pom.xml</module>
-        <module>../org.eclipse.jetty.util/pom.xml</module>
-        <module>../org.eclipse.jetty.io/pom.xml</module>
-        <module>../org.eclipse.jetty.http/pom.xml</module>
-        <module>../org.eclipse.jetty.servlet/pom.xml</module>
-        <module>../org.eclipse.jetty.server/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.api/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.common/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.servlet/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.server/pom.xml</module>
-        <module>../org.eclipse.jetty.client/pom.xml</module>
-        <module>../org.eclipse.jetty.websocket.client/pom.xml</module>
+        <module>../org.eclipse.jetty.bundles</module>
         <module>../com.github.jai.imageio.core/pom.xml</module>
         <module>../org.antlr.runtime/pom.xml</module>
         <module>../com.sun.jna/pom.xml</module>
@@ -158,6 +145,7 @@
                             <classifier>ECLIPSE</classifier>
                         </artifact>
                     </target>
+                    <executionEnvironment>JavaSE-17</executionEnvironment>
                     <environments>
                         <environment>
                             <os>linux</os>
@@ -188,7 +176,7 @@
         <jdk-version>1.8</jdk-version>
         <compiler-version>2.4</compiler-version>
         <wagon-ssh-version>2.2</wagon-ssh-version>
-        <tycho-version>1.3.0</tycho-version>
+        <tycho-version>4.0.6</tycho-version>
         <assembly-version>2.3</assembly-version>
         <source-version>2.1.2</source-version>
         <resources-version>2.5</resources-version>

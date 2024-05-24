@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.jetty.bundles" label="%featureName" version="12.0.3" provider-name="%providerName">
+    <description url="%descriptionURL">
+      %description
+   </description>
+    <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+    <license url="%licenseURL">
+      %license
+   </license>
+    <url>
+        <update label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+        <discovery label="%updateSiteName" url="https://whole.sourceforge.io/updates"/>
+    </url>
+    <plugin id="org.eclipse.jetty.ee8.annotations" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.annotations.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.jndi" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.jndi.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.plus" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.plus.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.security" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.security.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.server" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.server.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.servlet" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.servlet.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.servlets" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.servlets.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.webapp" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.ee8.webapp.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.http" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.http.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.io" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.io.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.jndi" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.jndi.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.logging" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.security" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.security.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.server" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.server.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.session" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.session.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.util" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.util.ajax" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.util.ajax.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.util.source" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.xml" download-size="0" install-size="0" version="12.0.3"/>
+    <plugin id="org.eclipse.jetty.xml.source" download-size="0" install-size="0" version="12.0.3"/>
+</feature>
